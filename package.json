@@ -1,0 +1,28 @@
+{
+	"name": "e2e-tests",
+	"version": "0.0.1",
+	"description": "Automated end to end tests framework",
+	"scripts": {
+		"install": "./node_modules/.bin/selenium-standalone install",
+		"start": "./node_modules/.bin/selenium-standalone start",
+		"regression-test": "./node_modules/.bin/mocha"
+	},
+	"dependencies": {
+		"babel-plugin-transform-flow-strip-types": "^6.22.0",
+		"babel-plugin-transform-object-rest-spread": "^6.26.0",
+		"babel-preset-env": "^1.7.0",
+		"babel-register": "^6.26.0",
+		"chai": "^4.1.2",
+		"config": "^1.31.0",
+		"mocha": "^5.2.0",
+		"moment": "^2.22.2",
+		"selenium-standalone": "6.15.1",
+		"selenium-webdriver": "^4.0.0-alpha.1"
+	},
+	"devDependencies": {
+		"fs-extra": "^7.0.0",
+		"jest": "^23.5.0",
+		"mochawesome": "^3.0.2",
+		"path": "^0.12.7"
+	}
+}

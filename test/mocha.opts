@@ -1,0 +1,5 @@
+--compilers js:babel-register
+--recursive
+-t 9000000
+--reporter mochawesome
+--reporter-options reportFilename=SanityReport,reportDir=report,reportPageTitle=Report,reportTitle=QAReport,enableCharts=true,inlineAssets=true

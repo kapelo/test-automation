@@ -1,0 +1,18 @@
+{
+    "devBaseURL": "http://localhost:3000",
+    "webDriverImplicitWaitTimeOutMS": 2000,
+    "webDriverPageLoadTimeOutMS": 20000,
+    "explicitWaitMS": 7000,
+    "mochaTimeoutMS": 160000,
+    "startBrowserTimeoutMS": 30000,
+    "startAppTimeoutMS": 240000,
+    "logMessageToConsole": false,
+    "browser": "chrome",
+    "headless": false,
+    "testAccounts": {
+		"adminUser": [
+			"testusername",
+			"testpassword"
+		]
+	}
+}
